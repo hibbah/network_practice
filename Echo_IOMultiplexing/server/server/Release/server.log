@@ -1,0 +1,21 @@
+﻿Build started 2015-08-28 오후 10:32:25.
+     1>Project "C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\server\server\server.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\server.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\program file\Microsoft\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt server.cpp
+         server.cpp
+     1>server.cpp(68): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         D:\program file\Microsoft\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\server\Release\server.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\server\Release\server.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\server\Release\server.lib" /MACHINE:X86 /SAFESEH Release\server.obj
+         Generating code
+         Finished generating code
+         server.vcxproj -> C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\server\Release\server.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\server.tlog\unsuccessfulbuild".
+         Touching "Release\server.tlog\server.lastbuildstate".
+     1>Done Building Project "C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\server\server\server.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.79

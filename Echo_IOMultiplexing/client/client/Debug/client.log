@@ -1,0 +1,24 @@
+﻿Build started 2015-08-28 오후 10:35:35.
+     1>Project "C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\client\client\client.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\client.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\program file\Microsoft\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt client.cpp
+         client.cpp
+     1>c:\users\jooyeon\desktop\network\실습\echo_iomultiplexing\client\client\client.cpp(52): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program file\microsoft\microsoft visual studio 13.0\vc\include\stdio.h(254) : see declaration of 'gets'
+     1>c:\users\jooyeon\desktop\network\실습\echo_iomultiplexing\client\client\client.cpp(53): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program file\microsoft\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jooyeon\desktop\network\실습\echo_iomultiplexing\client\client\client.cpp(61): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program file\microsoft\microsoft visual studio 13.0\vc\include\stdio.h(254) : see declaration of 'gets'
+       Link:
+         D:\program file\Microsoft\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\client\Debug\client.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\client\Debug\client.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\client\Debug\client.lib" /MACHINE:X86 Debug\client.obj
+         client.vcxproj -> C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\client\Debug\client.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\client.tlog\unsuccessfulbuild".
+         Touching "Debug\client.tlog\client.lastbuildstate".
+     1>Done Building Project "C:\Users\JooYeon\Desktop\network\실습\Echo_IOMultiplexing\client\client\client.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.59

@@ -1,0 +1,28 @@
+﻿Build started 2015-08-29 오전 2:24:23.
+     1>Project "C:\Users\JooYeon\Desktop\IOM test\serv\serv\serv.vcxproj" on node 2 (Build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\serv.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\program file\Microsoft\Microsoft Visual Studio 13.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt serv.cpp
+         serv.cpp
+     1>c:\users\jooyeon\desktop\iom test\serv\serv\serv.cpp(37): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program file\microsoft\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jooyeon\desktop\iom test\serv\serv\serv.cpp(42): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program file\microsoft\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jooyeon\desktop\iom test\serv\serv\serv.cpp(47): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program file\microsoft\microsoft visual studio 13.0\vc\include\string.h(112) : see declaration of 'strcpy'
+     1>c:\users\jooyeon\desktop\iom test\serv\serv\serv.cpp(101): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\jooyeon\desktop\iom test\serv\serv\serv.cpp(120): warning C4996: 'gets': This function or variable may be unsafe. Consider using gets_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program file\microsoft\microsoft visual studio 13.0\vc\include\stdio.h(254) : see declaration of 'gets'
+     1>c:\users\jooyeon\desktop\iom test\serv\serv\serv.cpp(133): warning C4101: 'msglen' : unreferenced local variable
+       Link:
+         D:\program file\Microsoft\Microsoft Visual Studio 13.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JooYeon\Desktop\IOM test\serv\Debug\serv.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\JooYeon\Desktop\IOM test\serv\Debug\serv.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\JooYeon\Desktop\IOM test\serv\Debug\serv.lib" /MACHINE:X86 Debug\serv.obj
+         serv.vcxproj -> C:\Users\JooYeon\Desktop\IOM test\serv\Debug\serv.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\serv.tlog\unsuccessfulbuild".
+         Touching "Debug\serv.tlog\serv.lastbuildstate".
+     1>Done Building Project "C:\Users\JooYeon\Desktop\IOM test\serv\serv\serv.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34
