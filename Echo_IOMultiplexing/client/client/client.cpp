@@ -38,7 +38,7 @@ int main()
 	sock = socket(PF_INET, SOCK_STREAM, IPPROTO_TCP);
 	if (sock == INVALID_SOCKET) ErrorHandling("socket() error");
 
-	if (connect(sock, (SOCKADDR*)&servaddr, sizeof(sockaddr)) == SOCKET_ERROR)
+	if (connect(sock, (SOCKADDR*)&servaddr, sizeof(servaddr)) == SOCKET_ERROR)
 		ErrorHandling("connect() error");
 
 	char buf[501], recvbuf[501]; buf[4] = '[';
